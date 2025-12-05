@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ElderlyCare" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:textSize">18sp</item> <!-- Large fonts for accessibility -->
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Theme.ElderlyCare" parent="Base.Theme.ElderlyCare" />
+
+    <!-- Accessibility styles -->
+    <style name="LargeText">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="ButtonLarge">
+        <item name="android:textSize">20sp</item>
+        <item name="android:minHeight">72dp</item>
+    </style>
+</resources>

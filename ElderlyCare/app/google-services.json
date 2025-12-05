@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1026225205218",
+    "project_id": "elderlycare-9755a",
+    "storage_bucket": "elderlycare-9755a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1026225205218:android:836f63b6757326ff2413bb",
+        "android_client_info": {
+          "package_name": "com.example.elderlycare"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpWQ9Osaz79trEvDb02_lwZtHhJbEKLHA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

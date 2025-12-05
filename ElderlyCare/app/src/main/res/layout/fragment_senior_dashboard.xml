@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".SeniorDashboardFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvWelcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Welcome, Senior!"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:rowCount="2"
+            android:layout_marginBottom="24dp">
+
+            <ImageButton
+                android:id="@+id/btnMedicalUpdates"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/medicalupdates"
+                android:scaleType="fitCenter"
+                android:contentDescription="Medical Updates" />
+
+            <ImageButton
+                android:id="@+id/btnMessages"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/messages"
+                android:scaleType="fitCenter"
+                android:contentDescription="Messages" />
+
+            <ImageButton
+                android:id="@+id/btnMyCaretakers"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/caretaker"
+                android:scaleType="fitCenter"
+                android:contentDescription="My Caretakers" />
+
+            <ImageButton
+                android:id="@+id/btnEmergency"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_row="0"
+                android:layout_column="4"
+                android:layout_margin="8dp"
+                android:background="@drawable/sos"
+                android:contentDescription="Emergency SOS"
+                android:scaleType="fitCenter" />
+
+        </GridLayout>
+
+        <TextView
+            android:id="@+id/tvQuickLinks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Quick Links"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/btnDOH"
+                android:layout_width="200dp"
+                android:layout_height="80dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/doh"
+                android:scaleType="fitCenter"
+                android:contentDescription="Department of Health (DOH)" />
+
+            <Button
+                android:id="@+id/btnPhilHealth"
+                android:layout_width="200dp"
+                android:layout_height="80dp"
+                android:layout_margin="8dp"
+                android:text="PhilHealth"
+                android:textSize="16sp"
+                android:backgroundTint="#FFFFFF"
+                android:textColor="#000000" />
+
+            <ImageButton
+                android:id="@+id/btnDSWD"
+                android:layout_width="200dp"
+                android:layout_height="80dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/dswd_logo"
+                android:scaleType="fitCenter"
+                android:contentDescription="DSWD" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
